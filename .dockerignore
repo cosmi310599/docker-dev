@@ -1,0 +1,16 @@
+# .dockerignore
+# Ignore files and directories that don't need to be copied into the Docker image
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore any files related to building and running the Docker image
+Dockerfile
+docker-compose.yml
+
+# Ignore files related to the development environment
+.vscode
+*.log
+*.swp
+
